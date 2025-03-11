@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Define file paths
-model_path = "G:\\Data Science\\project\\Streamlit\\env\\Scripts\\cnc\\model.pkl"
+model_path = "model.pkl"
 
 # Load model
 @st.cache_resource
