@@ -22,7 +22,7 @@ import base64
 import os
 
 def set_background_image_local():
-    image_path = "Milling image.jpg"
+    image_path = "tool animated.jpg"
     
     if not os.path.exists(image_path):
         st.error("Background image not found. Please check the file path.")
